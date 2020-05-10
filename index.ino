@@ -82,7 +82,7 @@ void handleLogin() {
     http.begin(url);
     int httpCode = http.GET();
     if (httpCode > 0) {
-      payload = http.getString();   //Get the request response payload
+      payload = http.getString();
       Serial.println(payload);
     }
     http.end();
