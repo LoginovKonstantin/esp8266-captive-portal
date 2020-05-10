@@ -1,0 +1,8 @@
+.idea
+.DS_Store
+
+/sender/.idea
+/sender/.git
+/sender/esp8266*.json
+/sender/node_modules/
+/sender/package_lock.json
